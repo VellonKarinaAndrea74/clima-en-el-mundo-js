@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(218, 225, 163);
+  margin: 0;
+  /* Asegúrate de que no haya márgenes en el cuerpo para dispositivos móviles */
+  padding: 0;
+  /* Elimina el relleno predeterminado del cuerpo */
+}
+
+.contenedor {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(101, 161, 41);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333333;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  box-sizing: border-box;
+  /* Evita que el ancho se incremente por el relleno */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #780a41;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+#datosClima {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Regla de medios para pantallas más pequeñas */
+@media (max-width: 600px) {
+  input[type="text"] {
+    width: 100%;
+    /* Hacer que el campo de entrada ocupe todo el ancho en pantallas más pequeñas */
+  }
+
+  button {
+    width: 100%;
+    /* Hacer que el botón ocupe todo el ancho en pantallas más pequeñas */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(218, 225, 163);
+  }
+  
+  .contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color:rgb(101, 161, 41);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  
+  h1 {
+    color: #333333;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #780a41;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  
+  #datosClima {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+   */
